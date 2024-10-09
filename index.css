@@ -1,0 +1,49 @@
+#myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Center vertically */
+    width: 100%; 
+   
+}
+
+#myForm label {
+    margin-right: 10px;
+}
+
+#myForm div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#myForm input {
+    padding: 10px;
+    border-radius: 5px; /* Adds radius to input fields */
+    border: 1px solid #ccc;
+    margin-left: 10px;
+}
+
+#myForm button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#myForm button:hover {
+    background-color: #45a049;
+}
+
+/* Center the form horizontally and vertically */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
